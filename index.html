@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realistic Solar Explorer</title>
+    <style>
+      body { 
+          margin: 0; 
+          overflow: hidden; 
+          background: radial-gradient(circle at center, #0a0a1a 0%, #000000 100%); 
+          font-family: 'Courier New', Courier, monospace; 
+      }
+      #root { width: 100vw; height: 100vh; }
+      canvas { display: block; }
+      .hud {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: white;
+        pointer-events: none;
+        user-select: none;
+        text-shadow: 0 0 10px rgba(0,255,255,0.5);
+      }
+      .hud h1 { margin: 0; font-size: 3em; text-transform: uppercase; letter-spacing: 5px; }
+      .hud p { margin: 5px 0 0 0; font-size: 1.2em; opacity: 0.8; }
+      .instructions {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        text-align: right;
+        color: rgba(255,255,255,0.5);
+        font-size: 0.9em;
+        pointer-events: none;
+      }
+      .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #00ffff;
+        font-size: 1.5em;
+        text-shadow: 0 0 20px #00ffff;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.1/client",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
