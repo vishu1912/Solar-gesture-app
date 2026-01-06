@@ -1,4 +1,4 @@
-## My Prompt
+# My Prompt
 
 I Built this using the below prompt with further enhancements to get here. You will need to adjust things as per your liking to enhance
 
@@ -38,19 +38,6 @@ Use useRef for Three.js instances.
 Handle "No Hand Detected" by slowly auto-rotating the planet.
 Prevent syntax errors by ensuring all Canvas contexts checks (if (!ctx) return) are strict."
 
-# Run and deploy your AI Studio app
+# Try it Out Here
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1rmu26zfuXcHxSIO_DJjrV84p4UD6fNvy
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Open app in AI Studio: https://ai.studio/apps/drive/1rmu26zfuXcHxSIO_DJjrV84p4UD6fNvy
