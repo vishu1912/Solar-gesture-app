@@ -1,4 +1,4 @@
-## I Built this using the below prompt with further enhancements to get here. Ignore my rambling to google: ##
+## I Built this using the below prompt with further enhancements to get here. Ignore my rambling to google:
 
 “Create a single-file HTML application using Three.js and MediaPipe Hands.
 Render a set of 3D floating words made entirely of glowing particles.
