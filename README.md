@@ -1,4 +1,4 @@
-I Built this using the below prompt with further enhancements to get here. You will need to adjust things as per your liking to enhance. 
+I Built this using the below prompt with further enhancements to get here. You will need to adjust things as per your liking to enhance.<br>
 
 To get started Login at https://aistudio.google.com/apps and use the below prompt. I used Gemini 3 Flash Preview
 
