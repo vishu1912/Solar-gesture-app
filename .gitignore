@@ -6,19 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
 node_modules
 dist
 dist-ssr
 *.local
-
-# Environment variables - ADD THESE LINES
-.env
-.env.local
-.env.production
-.env.development
-*.env
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
